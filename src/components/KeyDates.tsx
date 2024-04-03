@@ -38,7 +38,7 @@ const timeline = [
     icon: CheckIcon,
   },
   {
-    id: 3,
+    id: 5,
     content: 'Publication of final workshop schedule',
     target: '',
     href: '#',
@@ -47,7 +47,7 @@ const timeline = [
     icon: CheckIcon,
   },
   {
-    id: 4,
+    id: 6,
     content: 'Early registration deadline',
     target: '',
     href: '#',
@@ -56,7 +56,7 @@ const timeline = [
     icon: CheckIcon,
   },
   {
-    id: 5,
+    id: 7,
     content: 'Workshop',
     target: '',
     href: '#',
@@ -74,7 +74,7 @@ export function KeyDates() {
           <div className="mx-auto lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Key dates</h2>
             <p className="mt-2 text-lg leading-8 text-gray-600">
-            In addition to regular paper submissions, the CLD2 Workshop may accept papers rejected from the main conference purely based on the previously written reviews (made available by the PC chairs). We invite potential authors to submit a request for their rejected paper to be considered by 11 July 2024. The decision on these papers will be made by 18 July 2024. Articles rejected from the main conference should be submitted using the submission system, choosing the appropriate submission type. Once submissions are received, CLD2 workshop organizers will ask ECAI'24 PC Chairs for the main conference reviews.
+            In addition to regular paper submissions, the CLD2 Workshop may accept papers rejected from the main conference purely based on the previously written reviews (made available by the PC chairs). We invite potential authors to submit a request for their rejected paper to be considered by 11 July 2024. The decision on these papers will be made by 18 July 2024. Articles rejected from the main conference should be submitted using the submission system, choosing the appropriate submission type. Once submissions are received, CLD2 workshop organizers will ask ECAI24 PC Chairs for the main conference reviews.
             </p>
 
     <div className="flow-root mt-12">
