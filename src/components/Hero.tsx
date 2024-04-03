@@ -29,6 +29,14 @@ export function Hero() {
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         The workshop on Classifier Learning from Difficult Data is organized during the <a href="https://www.ecai2024.eu/">27TH EUROPEAN CONFERENCE ON ARTIFICIAL INTELLIGENCE</a> in Santiago de Compostella.
       </p>
+
+      <p className="mt-4 text-lg tracking-tight text-slate text-wrap">
+            The pre-conference program, including the CLD2 workshop, will take place in two adjacent buildings on the <strong>North Campus of the University of Santiago de Compostela on October 19-20, 2024</strong>. 
+            
+      </p>
+      <p className="mt-4 text-lg tracking-tight text-slate text-wrap">
+            CLD2, as a half-day event, will consist of two 90-minute sessions, separated by a 30-minute coffee break. Exact information as to the day, place, and time of the workshop will be provided later by the organizers.
+          </p>
       
     </Container>
   )

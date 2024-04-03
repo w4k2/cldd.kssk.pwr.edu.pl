@@ -21,6 +21,24 @@ const timeline = [
   },
   {
     id: 3,
+    content: 'Requests for consideration of ',
+    target: 'papers rejected from the main conference',
+    href: '#',
+    date: '11 July 2024',
+    datetime: '2024-07-11',
+    icon: CheckIcon,
+  },
+  {
+    id: 4,
+    content: 'Notification date for ',
+    target: 'papers rejected from the main conference',
+    href: '#',
+    date: '18 July 2024',
+    datetime: '2024-07-18',
+    icon: CheckIcon,
+  },
+  {
+    id: 3,
     content: 'Publication of final workshop schedule',
     target: '',
     href: '#',
@@ -53,14 +71,14 @@ export function KeyDates() {
     <section id='keyDates' className='bg-red-100 py-4'>
               <div className="bg-white py-24 sm:py-32 rounded-4xl">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
+          <div className="mx-auto lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Key dates</h2>
-            {/* <p className="mt-2 text-lg leading-8 text-gray-600">
-              Learn how to grow your business with our expert advice.
-            </p> */}
+            <p className="mt-2 text-lg leading-8 text-gray-600">
+            In addition to regular paper submissions, the CLD2 Workshop may accept papers rejected from the main conference purely based on the previously written reviews (made available by the PC chairs). We invite potential authors to submit a request for their rejected paper to be considered by 11 July 2024. The decision on these papers will be made by 18 July 2024. Articles rejected from the main conference should be submitted using the submission system, choosing the appropriate submission type. Once submissions are received, CLD2 workshop organizers will ask ECAI'24 PC Chairs for the main conference reviews.
+            </p>
 
     <div className="flow-root mt-12">
-      <ul role="list" className="-mb-8">
+      <ul role="list" className="">
         {timeline.map((event, eventIdx) => (
           <li key={event.id}>
             <div className="relative pb-8">
@@ -95,6 +113,10 @@ export function KeyDates() {
       </ul>
     </div>
     </div>
+
+    <p className="mt-4 text-lg leading-8 text-gray-600">
+    All deadlines are at the end of the day specified, anywhere on Earth (UTC-12).
+            </p>
           </div>
           </div>
 

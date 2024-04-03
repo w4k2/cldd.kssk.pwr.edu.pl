@@ -7,6 +7,7 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Organizers } from '@/components/Organizers'
 import { KeyDates } from '@/components/KeyDates'
+import { Submission } from '@/components/Submission'
 // import { Register } from '@/components/Register'
 import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
@@ -23,6 +24,7 @@ export default function Home() {
         <About />
         <Topics />
         <KeyDates />
+        <Submission />
         <Organizers />
         {/* <Register /> */}
         {/* <Pricing /> */}
