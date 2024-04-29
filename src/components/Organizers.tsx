@@ -6,6 +6,18 @@ const people = [
       'https://www.kssk.pwr.edu.pl/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc29DIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--de77d87aaf21dbd9285e1149f153b2b28828f7fb/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWdBQ2FRSUFBZz09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--6bfba435ab0a07076737973324901e1a2a6bce87/IMG_0619-2a-kopia.jpg',
     xUrl: '#',
     linkedinUrl: '#',
+    researchGateUrl: 'https://www.researchgate.net/profile/Pawel-Ksieniewicz',
+    googleScholarUrl: 'https://scholar.google.com/citations?user=YSM30D8AAAAJ&hl=pl&oi=ao'
+  },
+  {
+    name: 'Paweł Ksieniewicz',
+    role: 'Associate Professor of Computer Science at the Department of Systems and Computer Networks, Wroclaw University of Science and Technology, Poland.',
+    imageUrl:
+      'https://avatars.githubusercontent.com/u/904399?v=4',
+    xUrl: '#',
+    linkedinUrl: '#',
+    researchGateUrl: 'https://www.researchgate.net/profile/Pawel-Ksieniewicz',
+    googleScholarUrl: 'https://scholar.google.com/citations?user=YSM30D8AAAAJ&hl=pl&oi=ao'
   },
   {
     name: 'Michał Woźniak',
@@ -14,14 +26,8 @@ const people = [
       'https://www.kssk.pwr.edu.pl/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbWNEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a5d986bc00a0d87da63b091db13400ebcb14b3d/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWdBQ2FRSUFBZz09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--6bfba435ab0a07076737973324901e1a2a6bce87/IMG_5705-lr.jpg',
     xUrl: '#',
     linkedinUrl: '#',
-  },
-  {
-    name: 'Paweł Ksieniewicz',
-    role: 'Associate Professor of Computer Science at the Department of Systems and Computer Networks, Wroclaw University of Science and Technology, Poland.',
-    imageUrl:
-      'https://www.kssk.pwr.edu.pl/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbXNEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e342aa1581f9af87b32bb13ac30cdf703b7fa0fb/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWdBQ2FRSUFBZz09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--6bfba435ab0a07076737973324901e1a2a6bce87/legity-kopia.jpg',
-    xUrl: '#',
-    linkedinUrl: '#',
+    researchGateUrl: 'https://www.researchgate.net/profile/Pawel-Ksieniewicz',
+    googleScholarUrl: 'https://scholar.google.com/citations?user=YSM30D8AAAAJ&hl=pl&oi=ao'
   },
   // More people...
 ]
@@ -34,10 +40,9 @@ export function Organizers() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Organization commitee</h2>
-          {/* <p className="mt-6 text-lg leading-8 text-gray-600">
-            We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the
-            best results for our clients.
-          </p> */}
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            We’re researchers from <a href="https://www.kssk.pwr.edu.pl/">Department of Systems and Computer Networks</a>, which since 25 years conducts fundamendal research on Machine Learning models in difficult scenarios. We are from Poland.
+          </p>
         </div>
         <ul
           role="list"
