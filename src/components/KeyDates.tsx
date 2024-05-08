@@ -6,7 +6,7 @@ const timeline = [
     content: 'Paper',
     target: 'submission deadline',
     href: '#',
-    date: '15 May 2024',
+    date: '22 May 2024',
     datetime: '2024-05-15',
     icon: CheckIcon,
   },
