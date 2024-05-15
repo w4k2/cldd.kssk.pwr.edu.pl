@@ -35,7 +35,7 @@ export function Hero() {
             
       </p>
       <p className="mt-4 text-lg tracking-tight text-slate text-wrap">
-            CLD2, as a half-day event, will consist of two 90-minute sessions, separated by a 30-minute coffee break. Exact information as to the day, place, and time of the workshop will be provided later by the organizers.
+        CLD2, as a half-day event, will consist of two 90-minute sessions, lasting from 9:00 to 10:30 am and from 11:00 to 12:30 pm separated by a 30-minute coffee break. 
           </p>
       
     </Container>
