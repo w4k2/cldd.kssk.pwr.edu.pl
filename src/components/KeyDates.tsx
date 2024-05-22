@@ -21,7 +21,7 @@ const timeline = [
   },
   {
     id: 3,
-    content: 'Notification date for ',
+    content: 'Author notification date for ',
     target: 'standard papers & papers transfered from the main conference',
     href: '#',
     date: '18 July 2024',
