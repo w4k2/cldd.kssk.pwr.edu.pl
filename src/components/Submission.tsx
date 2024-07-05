@@ -4,7 +4,7 @@ export function Submission() {
               <div className="bg-white py-24 sm:py-32 rounded-4xl">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Submission instructions</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Submission instructions and conference proceedings</h2>
             
             <p className="mt-2 text-lg leading-8 text-gray-600">
 
@@ -15,8 +15,7 @@ export function Submission() {
 Excessive use of typesetting tricks to make things fit is not permitted. Please do not modify the style files or layout parameters.
 </p>
 <p className="mt-2 text-lg leading-8 text-gray-600">
-
-Link to submission system coming soon.
+  Conference proceedings will be publised <a href="https://proceedings.mlr.press/">The Proceedings of Machine Learning Research</a> series.
 </p>
 
     </div>
