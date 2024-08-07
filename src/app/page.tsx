@@ -6,6 +6,7 @@ import { Hero } from '@/components/Hero'
 import { Organizers } from '@/components/Organizers'
 import { KeyDates } from '@/components/KeyDates'
 import { Submission } from '@/components/Submission'
+import { Keynote } from '@/components/Keynote'
 import { PC } from '@/components/PC'
 
 export default function Home() {
