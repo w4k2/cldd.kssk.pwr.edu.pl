@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        {/* <Keynote /> */}
+        <Keynote />
         <Topics />
         <KeyDates />
         <Submission />
