@@ -34,9 +34,6 @@ export function Hero() {
             The pre-conference program, including the CLD2 workshop, will take place in two adjacent buildings on the <strong>North Campus of the University of Santiago de Compostela on October 19-20, 2024</strong>. 
             
       </p>
-      <p className="mt-4 text-lg tracking-tight text-slate text-wrap">
-        CLD2, as a half-day event, will consist of two 90-minute sessions, lasting from 9:00 to 10:30 am and from 11:00 to 12:30 pm separated by a 30-minute coffee break. 
-          </p>
       
     </Container>
   )

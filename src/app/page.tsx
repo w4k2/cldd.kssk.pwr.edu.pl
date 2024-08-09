@@ -8,6 +8,7 @@ import { KeyDates } from '@/components/KeyDates'
 import { Submission } from '@/components/Submission'
 import { Keynote } from '@/components/Keynote'
 import { PC } from '@/components/PC'
+import { Program } from '@/components/Program'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <Program />
         <Keynote />
         <Topics />
         <KeyDates />
