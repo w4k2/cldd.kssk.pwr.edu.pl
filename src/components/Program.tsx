@@ -124,7 +124,7 @@ export function Program() {
         {timeline2.map((event, eventIdx) => (
           <li key={event.id}>
             <div className="relative pb-8">
-              {eventIdx !== timeline1.length - 1 ? (
+              {eventIdx !== timeline2.length - 1 ? (
                 <span className="absolute left-4 top-4 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true" />
               ) : null}
               <div className="relative flex space-x-3">
