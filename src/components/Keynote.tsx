@@ -12,7 +12,7 @@ export function Keynote() {
               
               <blockquote className="text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
                 <p>
-                  Multimodal data classification and modality encoding in the context of difficult data processing
+                  Employing modality encoding techniques for difficult data classification
                 </p>
               </blockquote>
 
@@ -20,7 +20,7 @@ export function Keynote() {
                 Paweł Zyblewski is an Assistant Professor at the Department of Systems and Computer Networks, Wroclaw University of Science and Technology, Poland. Research work related to his doctoral dissertation, entitled &quot;Classifier selection for imbalanced data stream classification&quot;, in which he focused on the use of dynamic ensemble selection algorithms for the analysis of highly imbalanced data streams, resulted in him receiving a Scholarship from the Minister of Education and Science for outstanding young scientists and winning the Polish Artificial Intelligence Society (PSSI) Best Ph.D. Dissertation in Artificial Intelligence Contest in 2021. His research interests are currently related to imbalanced data classification, data stream analysis, multimodal data analysis, modality encoding, and semi-supervised learning.
             </p>
             <p className="mt-2 mb-2 text-lg leading-8 text-gray-600">
-                Abstract of Keynote talk TBA.
+                The talk will include a brief presentation of the applicability of modality encoding methods – including the transformation of tabular data and text to discrete digital signals as well as sonification – in the classification of streaming and multimodal data.
             </p>
             </div>
             <div className="col-end-1 w-16 lg:row-span-4 lg:w-72">
