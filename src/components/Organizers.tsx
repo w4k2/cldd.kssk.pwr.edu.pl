@@ -3,7 +3,7 @@ const people = [
     name: 'Paweł Zyblewski',
     role: 'Assistant Professor at the Department of Systems and Computer Networks, Wroclaw University of Science and Technology, Poland',
     imageUrl:
-      'https://www.kssk.pwr.edu.pl/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc29DIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--de77d87aaf21dbd9285e1149f153b2b28828f7fb/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWdBQ2FRSUFBZz09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--6bfba435ab0a07076737973324901e1a2a6bce87/IMG_0619-2a-kopia.jpg',
+      'https://www.kssk.pwr.edu.pl/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdVVEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--54a9e3a27e205a8328cec86aa874778a3324872c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWdBQ2FRSUFBZz09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--94497c79e545d11fdbc9fad27957a728b16fa202/Zrzut%20ekranu%202024-11-5%20o%2013.42.55.png',
     xUrl: '#',
     linkedinUrl: '#',
     researchGateUrl: 'https://www.researchgate.net/profile/Pawel-Ksieniewicz',
